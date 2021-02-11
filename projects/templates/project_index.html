@@ -25,8 +25,23 @@
                         </span>
                         <span class="card-body">
                             <span class="card-title h5">{{ project.title }}</span>
+                            <span class="card-text">{{ project.description }}</span>
                         </span>
                     </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 show-on-scroll" data-show-duration="500" data-show-distance="20" data-show-delay="250">
+                    <div class="card mb-2 card-demo text-white">
+                        <img class="card-img-top" src="{% static project.image %}">
+                        <div class="card-body">
+                            <h5 class="card-title text-light">{{ project.title }}</h5>
+                            <p class="card-text text-light">{{ project.description }}</p>
+                            <a href="{% url 'project_detail' project.pk %}"
+                               class="btn btn-primary">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>

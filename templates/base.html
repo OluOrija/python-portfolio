@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,28 +7,29 @@
         <title>SaintShadow | Landing</title>
         <meta name="description" content="Themebau">
         <meta name="author" content="RunWebRun">
-        <link rel="icon" type="image/png" href="../static/images/favicon_v1.png">
+        <!-- <link rel="icon" type="image/png" href="../static/images/favicon_v1.png"> -->
+        <link rel="icon" type="image/png" href="{% static 'images/favicon_v1.png' %}">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
         <!-- START: Styles -->
         <!-- Swiper -->
-        <link rel="stylesheet" href="../static/vendor/swiper/dist/css/swiper.min.css" />
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/swiper/dist/css/swiper.min.css' %}" />  
         <!-- Fancybox -->
-        <link rel="stylesheet" href="../static/vendor/fancybox/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/fancybox/dist/jquery.fancybox.min.css' %}" />  
         <!-- Themebau -->
-        <link rel="stylesheet" href="../static/css/themebau.min.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/themebau.min.css' %}" /> 
         <!-- Custom Styles -->
-        <link rel="stylesheet" href="../static/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}" /> 
         <!-- END: Styles -->
         <!-- jQuery -->
-        <script src="../static/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="{% static 'vendor/jquery/dist/jquery.min.js' %}"></script> 
     </head>
     <body>
         <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
             <div class="container">
-                <a class="navbar-brand order-1" href="index.html">
-                    <img width="107" src="../static/images/logo_v1.svg" alt="">
+                <a class="navbar-brand order-1" href="http://127.0.0.1:8000/projects/">
+                    <img width="107" src="{% static 'images/logo_v1.svg' %}" alt="">
                 </a>
                 <a class="navbar-toggle order-4" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
@@ -36,7 +38,7 @@
                 </a>
                 <ul class="nav navbar-nav order-2">
                     <li class="nav-item navbar-dropdown navbar-dropdown-mega">
-                        <a href="index.html" class="nav-link">
+                        <a href="http://127.0.0.1:8000/projects/" class="nav-link">
                             <span class="nav-link-name">home</span>
                             <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -217,36 +219,36 @@
         {% endblock %}
         <!-- START: Scripts -->
         <!-- Object Fit Polyfill -->
-        <script src="../static/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <script src="{% static 'vendor/object-fit-images/dist/ofi.min.js' %}"></script>
         <!-- Popper -->
-        <script src="../static/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="{% static 'vendor/popper.js/dist/umd/popper.min.js' %}"></script>
         <!-- Bootstrap -->
-        <script src="../static/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="{% static 'vendor/bootstrap/dist/js/bootstrap.min.js' %}"></script>
         <!-- Bootstrap Validator -->
-        <script src="../static/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <script src="{% static 'vendor/bootstrap-validator/dist/validator.min.js' %}"></script>
         <!-- ImagesLoaded -->
-        <script src="../static/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
         <!-- Swiper -->
-        <script src="../static/vendor/swiper/dist/js/swiper.min.js"></script>
+        <script src="{% static 'vendor/swiper/dist/js/swiper.min.js' %}"></script>
         <!-- Animejs -->
-        <script src="../static/vendor/animejs/lib/anime.min.js"></script>
+        <script src="{% static 'vendor/animejs/lib/anime.min.js' %}"></script>
         <!-- Rellax -->
-        <script src="../static/vendor/rellax/rellax.min.js"></script>
+        <script src="{% static 'vendor/rellax/rellax.min.js' %}"></script>
         <!-- Countdown -->
-        <script src="../static/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <script src="{% static 'vendor/jquery-countdown/dist/jquery.countdown.min.js' %}"></script>
         <!-- Moment.js -->
-        <script src="../static/vendor/moment/min/moment.min.js"></script>
-        <script src="../static/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <script src="{% static 'vendor/moment/min/moment.min.js' %}"></script>
+        <script src="{% static 'vendor/moment-timezone/builds/moment-timezone-with-data.min.js' %}"></script>
         <!-- Isotope -->
-        <script src="../static/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
-        <script src="../static/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
+        <script src="{% static 'vendor/isotope-layout/dist/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'vendor/isotope-packery/packery-mode.pkgd.min.js' %}"></script>
         <!-- Jarallax -->
-        <script src="../static/vendor/jarallax/dist/jarallax.min.js"></script>
-        <script src="../static/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <script src="{% static 'vendor/jarallax/dist/jarallax.min.js' %}"></script>
+        <script src="{% static 'vendor/jarallax/dist/jarallax-video.min.js' %}"></script>
         <!-- Fancybox -->
-        <script src="../static/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script src="{% static 'vendor/fancybox/dist/jquery.fancybox.min.js' %}"></script>
         <!-- Themebau -->
-        <script src="../static/js/themebau.min.js"></script>
+        <script src="{% static 'js/themebau.min.js' %}"></script>
         <!-- END: Scripts -->
     </body>
 </html>
