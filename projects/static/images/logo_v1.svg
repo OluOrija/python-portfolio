@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   sodipodi:docname="logo_v1.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="106.58929"
+       y="94.494048"
+       width="15.119048"
+       height="14.363095"
+       id="rect18" />
+    <rect
+       x="49.892857"
+       y="83.154762"
+       width="94.494044"
+       height="34.77381"
+       id="rect12" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-185.71429"
+     inkscape:cy="594.6296"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:object-paths="false"
+     inkscape:snap-bbox="false"
+     inkscape:window-width="1252"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="870"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="font-style:normal;font-weight:normal;font-size:14.11110000000000042px;line-height:2.05;font-family:sans-serif;white-space:pre;shape-inside:url(#rect12);fill:#e6e6e6;fill-opacity:1;stroke:none;"
+       transform="matrix(2.6219654,0,0,3.3446189,-129.01123,-168.64563)"><tspan
+         x="49.892578"
+         y="101.67272"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#e6e6e6">StShadow</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text16"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333000000032px;white-space:pre;shape-inside:url(#rect18);" />
+  </g>
+</svg>
