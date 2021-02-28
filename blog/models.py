@@ -13,6 +13,9 @@ class Post(models.Model):
     categories = models.ManyToManyField('Category', related_name='posts')
     def __str__(self):
         return self.title    
+    def selected_categories(self):
+        return self.categories.all()
+
 
 class Comment(models.Model):
     author = models.CharField(max_length=60)
